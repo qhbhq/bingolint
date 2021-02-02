@@ -3,5 +3,9 @@
   "version": "0.0.1",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "author": "qiuhongbingo@outlook.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
+  }
 }
