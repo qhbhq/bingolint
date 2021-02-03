@@ -18,4 +18,6 @@ module.exports = {
     'function-url-quotes': 'always',
     'no-descending-specificity': null,
   },
+
+  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
 }
