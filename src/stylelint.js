@@ -10,7 +10,9 @@ module.exports = {
   rules: {
     'rule-empty-line-before': [
       'always',
-      { except: ['after-single-line-comment', 'first-nested'] },
+      {
+        except: ['after-single-line-comment', 'first-nested'],
+      },
     ],
     'color-named': 'never',
     'color-hex-case': 'lower',
