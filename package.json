@@ -3,15 +3,41 @@
   "version": "0.0.1",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "author": "qiuhongbingo@outlook.com",
+  "main": "src/index.js",
   "license": "MIT",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qhbhq/bingolint"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "stylelint"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
-    "stylelint": "^13.9.0",
+    "stylelint": "^13.11.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "release-it": "^14.4.1"
+  },
+  "release-it": {
+    "git": {
+      "tag": false,
+      "commitMessage": "chore: release bingolint@${version}"
+    }
   }
 }
