@@ -1,6 +1,6 @@
 {
   "name": "bingolint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "author": "qiuhongbingo@outlook.com",
   "main": "index.js",
