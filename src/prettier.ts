@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   // Only add semicolons at the beginning of lines that may introduce ASI failures
   semi: false,
 
