@@ -21,7 +21,13 @@ yarn add bingolint --dev
 ### .prettierrc.js
 
 ```js
-// TODO
+const { prettier } = require('bingolint')
+
+module.exports = {
+  ...prettier,
+
+  // your rules
+}
 ```
 
 ### .eslintrc.js
@@ -33,5 +39,13 @@ yarn add bingolint --dev
 ### .stylelintrc.js
 
 ```js
-// TODO
+const { stylelint } = require('bingolint')
+
+module.exports = {
+  ...stylelint,
+
+  rules: {
+    // your rules
+  },
+}
 ```
