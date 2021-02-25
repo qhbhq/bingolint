@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "author": "qiuhongbingo@outlook.com",
-  "main": "src/index.js",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "release": "release-it"
